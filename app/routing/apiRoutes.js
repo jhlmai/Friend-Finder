@@ -12,7 +12,7 @@ module.exports = function(app) {
 // This will be used to display a JSON of all possible friends.
 	app.get("/api/friends", function(req, res) {
 
-		fs.readFile('app/data/friends.js', , function(err,data){
+		fs.readFile('app/data/friends.js', function(err,data){
 			// console.log(typeof data, data);
 			var parsed = JSON.parse(data);
 			var arr = parsed.scoreboard;
@@ -43,8 +43,9 @@ module.exports = function(app) {
 			fs.writeFile('app/data/friends.json',dataExport,'utf8',function(err,data){
 				if(err) throw err; 
 			})
-		}
-
+		})
+	})
+}
 			// Convert each user's results into a simple array of numbers
 
 			// compare the difference between current user's scores 
@@ -53,4 +54,4 @@ module.exports = function(app) {
 			// The closest match will be the user with the least amount of difference.
 
 			// Once you've found the current user's most compatible friend
-			// display the result as a modal pop-up.
+			// display the result as a modal pop-up
