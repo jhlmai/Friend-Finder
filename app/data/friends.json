@@ -1,0 +1,24 @@
+{
+    "scoreboard": [
+      {
+        "name": "james bond",
+        "photo": "http://i.dailymail.co.uk/i/pix/2015/09/21/16/2C96F60E00000578-0-image-a-126_1442848442984.jpg",
+        "scores": [2, 5, 1, 3, 3, 3, 5, 2, 5, 3]
+      },
+      {
+        "name": "batman",
+        "photo": "https://pbs.twimg.com/media/DB_no6eXYAAWjAA.jpg",
+        "scores": [3, 4, 5, 1, 4, 3, 5, 3, 5, 5]
+      },
+      {
+        "name": "the joker",
+        "photo": "http://i2.kym-cdn.com/entries/icons/original/000/017/017/joker-prison-close-there-s-a-secret-hidden-behind-heath-ledger-s-joker.jpeg",
+        "scores": [3, 5, 2, 5, 3, 3, 1, 1, 1, 1]
+      },
+      {
+        "name": "tom hanks",
+        "photo": "http://images.hellogiggles.com/uploads/2015/10/10/tomhanks.jpg",
+        "scores": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+      }
+    ]
+  }
